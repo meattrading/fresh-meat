@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nepal Fresh Meat | Goat, Chicken, Kadaknath & Local Chicken in Nepal</title>
+  <meta name="description" content="Fresh goat meat, chicken, Kadaknath chicken and local (desi) chicken in Nepal. Clean, hygienic, home delivery. Order easily on WhatsApp." />
+  <meta name="theme-color" content="#FFC107" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo" aria-label="Home">
+        <span class="logo__icon">🥩</span>
+        <span class="logo__text">Nepal <b>Fresh Meat</b></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main menu">
+        <a href="#home">Home</a>
+        <a href="#notice">Notices</a>
+        <a href="#products">Our Meat</a>
+        <a href="#how">How to Order</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#" class="btn btn--wa nav__cta" data-wa>
+          <svg viewBox="0 0 32 32" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.4L3 29l6.8-1.8C11.6 28.3 13.8 29 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.7c-2 0-3.9-.6-5.5-1.6l-.4-.2-4 1.1 1.1-3.9-.3-.4C5.8 20 5.3 18 5.3 16 5.3 9.9 10.100 5.100 16 5.100S26.700 9.900 26.700 16 21.900 26.700 16 26.700zm5.900-8c-.3-.2-1.900-.9-2.200-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.200-.2.200-.4.200-.7.100-.3-.2-1.400-.5-2.600-1.600-1-.9-1.600-1.900-1.800-2.200-.2-.3 0-.5.100-.7l.5-.6c.2-.2.200-.3.300-.5.100-.2.100-.4 0-.6-.1-.2-.7-1.700-1-2.300-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.100-.9.400-.3.300-1.200 1.100-1.200 2.800s1.200 3.200 1.400 3.500c.2.200 2.400 3.700 5.800 5.100.8.300 1.400.5 1.900.7.8.300 1.500.2 2.100.1.600-.1 1.900-.8 2.200-1.500.3-.7.300-1.400.2-1.500-.1-.2-.3-.3-.6-.4z"/></svg>
+          Order on WhatsApp
+        </a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="basket-btn" id="basketOpen" aria-label="Open my order basket">
+          🛒 <span class="basket-btn__count" id="basketCount">0</span>
+        </button>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <span class="badge">🇳🇵 नेपालमा ताजा मासु • Fresh Meat in Nepal</span>
+          <h1>Fresh, Clean &amp; <em>Farm-Quality</em> Meat Delivered to Your Door</h1>
+          <p>Goat meat, chicken, Kadaknath black chicken and local village chicken — cut fresh, packed clean and sent to you the same day.</p>
+          <div class="hero__buttons">
+            <a href="#products" class="btn btn--primary">See Our Meat</a>
+            <a href="#" class="btn btn--wa" data-wa>Chat on WhatsApp</a>
+          </div>
+          <ul class="hero__points">
+            <li>✔ Fresh every morning</li>
+            <li>✔ Hygienic cutting</li>
+            <li>✔ Home delivery</li>
+          </ul>
+        </div>
+
+        <div class="hero__art reveal" aria-hidden="true">
+          <div class="hero__circle">
+            <span class="emoji e1">🐐</span>
+            <span class="emoji e2">🐔</span>
+            <span class="emoji e3">🍗</span>
+            <span class="emoji e4">🥩</span>
+          </div>
+        </div>
+      </div>
+      <svg class="hero__wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0,40 C240,100 480,0 720,30 C960,60 1200,100 1440,30 L1440,80 L0,80 Z" fill="#FFFBEA"/></svg>
+    </section>
+
+    <!-- ===== YELLOW STRIP ===== -->
+    <div class="ticker" aria-hidden="true"><div class="ticker__track"><div class="ticker__group"><span>🐐 Goat Meat</span><span>★</span><span>🍗 Chicken</span><span>★</span><span>🐓 Kadaknath</span><span>★</span><span>🐔 Local Chicken</span><span>★</span><span>🛵 Home Delivery</span><span>★</span><span>🌿 Fresh Every Day</span><span>★</span></div><div class="ticker__group"><span>🐐 Goat Meat</span><span>★</span><span>🍗 Chicken</span><span>★</span><span>🐓 Kadaknath</span><span>★</span><span>🐔 Local Chicken</span><span>★</span><span>🛵 Home Delivery</span><span>★</span><span>🌿 Fresh Every Day</span><span>★</span></div></div></div>
+
+    <!-- ===== NOTICE BOARD (edit notices in script.js) ===== -->
+    <section class="notice" id="notice">
+      <div class="container">
+        <div class="board reveal">
+          <div class="board__head">
+            <h2>📢 Notice Board</h2>
+            <span class="board__updated"><i class="live-dot"></i><span id="noticeUpdated"></span></span>
+          </div>
+          <div class="board__grid" id="noticeGrid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRODUCTS ===== -->
+    <section class="section" id="products">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Our Meat</span>
+          <h2>Choose What <span class="hl">You Need</span></h2>
+          <p>Pick the quantity and add it to your basket. Send your order on WhatsApp in one tap.</p>
+        </div>
+
+        <div class="filters reveal" id="filters" role="tablist" aria-label="Filter meat">
+          <button class="chip is-active" data-filter="all">All</button>
+          <button class="chip" data-filter="goat">Goat</button>
+          <button class="chip" data-filter="chicken">Chicken</button>
+        </div>
+
+        <div class="grid" id="productGrid"><!-- products load from script.js --></div>
+        <p class="note reveal">* Prices are per kg and can change daily with the market. Final price is confirmed on WhatsApp.</p>
+      </div>
+    </section>
+
+    <!-- ===== WHY US ===== -->
+    <section class="section section--dark" id="why">
+      <div class="container">
+        <div class="section__head section__head--light reveal">
+          <span class="eyebrow">Why Choose Us</span>
+          <h2>Quality You Can <span class="hl">Trust</span></h2>
+        </div>
+        <div class="features">
+          <article class="feature reveal"><div class="feature__icon">🌿</div><h3>Always Fresh</h3><p>Meat is prepared every morning. Nothing old, nothing frozen for days.</p></article>
+          <article class="feature reveal"><div class="feature__icon">🧼</div><h3>Clean &amp; Hygienic</h3><p>Clean cutting, clean hands, clean packing. Safe for your family.</p></article>
+          <article class="feature reveal"><div class="feature__icon">🛵</div><h3>Fast Delivery</h3><p>Order in the morning and get it at home the same day in our delivery areas.</p></article>
+          <article class="feature reveal"><div class="feature__icon">💰</div><h3>Fair Price</h3><p>Direct from farms. No middle-man, so you get a better rate.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOW TO ORDER ===== -->
+    <section class="section" id="how">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Easy Steps</span>
+          <h2>How to <span class="hl">Order</span></h2>
+        </div>
+        <div class="steps">
+          <div class="step reveal"><span class="step__num">1</span><h3>Choose meat</h3><p>Select goat, chicken, Kadaknath or local chicken and the weight in kg.</p></div>
+          <div class="step reveal"><span class="step__num">2</span><h3>Send on WhatsApp</h3><p>Tap “Send Order”. Your order message is written for you automatically.</p></div>
+          <div class="step reveal"><span class="step__num">3</span><h3>Get it fresh</h3><p>We confirm the price and time, then deliver or you pick up. Pay on delivery.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section section--cream" id="about">
+      <div class="container about">
+        <div class="about__text reveal">
+          <span class="eyebrow">About Us</span>
+          <h2>Trusted Meat Trading in <span class="hl">Nepal</span></h2>
+          <p>We are a local meat trading business. We bring goat and chicken directly from trusted farmers and village sellers, and sell it to homes, restaurants, hotels and for festivals and parties.</p>
+          <p>Looking for Kadaknath black chicken or real local (desi) chicken for health and taste? We have it. Need bulk meat for a wedding, puja or event? Message us and we will give you a special rate.</p>
+          <ul class="ticks">
+            <li>Homes, restaurants &amp; hotels</li>
+            <li>Bulk orders for weddings &amp; festivals</li>
+            <li>Dashain, Tihar &amp; Eid special orders</li>
+          </ul>
+        </div>
+        <div class="about__stats reveal">
+          <div class="stat"><b data-count="500">0</b><span>+ Happy Customers</span></div>
+          <div class="stat"><b data-count="4">0</b><span>Types of Meat</span></div>
+          <div class="stat"><b data-count="7">0</b><span>Days a Week</span></div>
+          <div class="stat"><b data-count="100">0</b><span>% Fresh</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div class="contact__info reveal">
+          <span class="eyebrow">Contact</span>
+          <h2>Let's <span class="hl">Talk</span></h2>
+          <p>Send us a message for today's price, bulk orders or delivery questions. We reply fast on WhatsApp.</p>
+          <ul class="contact__list">
+            <li><span>📞</span> <a href="#" id="callLink">+977 98XXXXXXXX</a></li>
+            <li><span>💬</span> <a href="#" data-wa>WhatsApp us</a></li>
+            <li><span>📍</span> Kathmandu, Nepal (change to your address)</li>
+            <li><span>⏰</span> Open daily 6:00 AM – 7:00 PM</li>
+          </ul>
+        </div>
+
+        <form class="form reveal" id="contactForm" novalidate>
+          <h3>Send a Message</h3>
+          <label>Your name
+            <input type="text" id="cName" placeholder="Ram Sharma" required />
+          </label>
+          <label>Phone number
+            <input type="tel" id="cPhone" placeholder="98XXXXXXXX" />
+          </label>
+          <label>Message
+            <textarea id="cMsg" rows="4" placeholder="I need 5 kg goat meat for Saturday..." required></textarea>
+          </label>
+          <button type="submit" class="btn btn--wa btn--block">Send on WhatsApp</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <a href="#home" class="logo logo--light"><span class="logo__icon">🥩</span><span class="logo__text">Himal <b>Fresh Meat</b></span></a>
+        <p>Fresh goat, chicken, Kadaknath and local chicken in Nepal.</p>
+      </div>
+      <nav class="footer__links" aria-label="Footer">
+        <a href="#home">Home</a><a href="#notice">Notices</a><a href="#products">Our Meat</a><a href="#why">Why Us</a><a href="#how">How to Order</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">© <span id="year"></span> Nepal Fresh Meat. All rights reserved.</div>
+  </footer>
+
+  <!-- ===== BASKET DRAWER ===== -->
+  <div class="overlay" id="overlay"></div>
+  <aside class="drawer" id="drawer" aria-label="My order basket" aria-hidden="true">
+    <div class="drawer__head">
+      <h3>🛒 My Order</h3>
+      <button class="drawer__close" id="basketClose" aria-label="Close basket">✕</button>
+    </div>
+    <div class="drawer__body" id="basketItems"></div>
+    <div class="drawer__foot">
+      <div class="total"><span>Estimated total</span><b id="basketTotal">Rs 0</b></div>
+      <input type="text" id="oName" placeholder="Your name" />
+      <input type="text" id="oAddress" placeholder="Delivery address / area" />
+      <button class="btn btn--wa btn--block" id="sendOrder">Send Order on WhatsApp</button>
+      <button class="link-btn" id="clearBasket">Clear basket</button>
+    </div>
+  </aside>
+
+  <!-- ===== FLOATING WHATSAPP ===== -->
+  <a href="#" class="float-wa" data-wa aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><path fill="#fff" d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.4L3 29l6.8-1.8C11.6 28.3 13.8 29 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.7c-2 0-3.9-.6-5.5-1.6l-.4-.2-4 1.1 1.1-3.9-.3-.4C5.8 20 5.3 18 5.3 16 5.3 9.9 10.1 5.1 16 5.1S26.7 9.9 26.7 16 21.9 26.7 16 26.7zm5.900-8c-.3-.2-1.900-.9-2.200-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.200-.2.200-.4.200-.7.100-.3-.2-1.400-.5-2.600-1.600-1-.9-1.600-1.900-1.800-2.200-.2-.3 0-.5.100-.7l.5-.6c.2-.2.200-.3.300-.5.100-.2.100-.4 0-.6-.1-.2-.7-1.700-1-2.300-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.100-.9.400-.3.300-1.200 1.100-1.200 2.800s1.200 3.200 1.400 3.500c.2.200 2.400 3.700 5.800 5.100.8.300 1.400.5 1.900.7.8.300 1.500.2 2.100.1.600-.1 1.900-.8 2.200-1.500.3-.7.300-1.400.2-1.500-.1-.2-.3-.3-.6-.4z"/></svg>
+  </a>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
